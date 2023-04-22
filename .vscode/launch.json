@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter1",
+            "type": "dart",
+            "request": "launch",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "Flutter2",
+            "type": "dart",
+            "request": "launch",
+            "deviceId": "emulator-5556"
+        },
+        
+        {
+            "name": "wechatapp",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "wechatapp (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "wechatapp (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": ["Flutter1" , "Flutter2"]
+        }
+    ]
+}
